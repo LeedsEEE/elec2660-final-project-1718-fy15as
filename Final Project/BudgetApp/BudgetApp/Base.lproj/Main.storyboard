@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SET YOUR BUDGET!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKH-j8-CFS">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Fi-c9-eZG">
+                                <state key="normal" title="Confirm"/>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="P2a-kQ-2OG">
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="5hd-oE-y9x"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0X-Ew-mFM">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="DfL-xe-CZf">
+                                <connections>
+                                    <action selector="stepperValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="jqQ-ry-zMR"/>
+                                </connections>
+                            </stepper>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94005808872521068" green="1" blue="0.90020313330907631" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="z0X-Ew-mFM" firstAttribute="top" secondItem="P2a-kQ-2OG" secondAttribute="bottom" constant="34" id="0HM-uo-iMG"/>
+                            <constraint firstItem="z0X-Ew-mFM" firstAttribute="centerX" secondItem="1Fi-c9-eZG" secondAttribute="centerX" id="29E-HO-QCe"/>
+                            <constraint firstItem="CKH-j8-CFS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9NM-IT-lFe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="P2a-kQ-2OG" secondAttribute="trailing" constant="19" id="Hqp-Il-6l0"/>
+                            <constraint firstItem="P2a-kQ-2OG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="Or3-PO-cLe"/>
+                            <constraint firstItem="DfL-xe-CZf" firstAttribute="centerX" secondItem="z0X-Ew-mFM" secondAttribute="centerX" id="atD-Et-ksV"/>
+                            <constraint firstItem="DfL-xe-CZf" firstAttribute="top" secondItem="CKH-j8-CFS" secondAttribute="bottom" constant="50" id="awJ-uM-xGL"/>
+                            <constraint firstItem="CKH-j8-CFS" firstAttribute="centerX" secondItem="DfL-xe-CZf" secondAttribute="centerX" id="cBR-X3-GFi"/>
+                            <constraint firstItem="P2a-kQ-2OG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gVG-rJ-0yx"/>
+                            <constraint firstItem="P2a-kQ-2OG" firstAttribute="top" secondItem="DfL-xe-CZf" secondAttribute="bottom" constant="42" id="gm2-Me-7r6"/>
+                            <constraint firstItem="1Fi-c9-eZG" firstAttribute="top" secondItem="z0X-Ew-mFM" secondAttribute="bottom" constant="65" id="zgM-xa-MD3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="P2a-kQ-2OG" id="mlC-6K-ccP"/>
+                        <outlet property="sliderLabel" destination="z0X-Ew-mFM" id="kBG-fs-PDK"/>
+                        <outlet property="stepper" destination="DfL-xe-CZf" id="Z62-cG-dG3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZdZ-Ga-QSx">
+            <objects>
+                <viewController id="y2Z-1t-seK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eJ8-cY-B11"/>
+                        <viewControllerLayoutGuide type="bottom" id="evA-YF-47d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ozL-4i-1xp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oJc-hH-l2b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="123"/>
+        </scene>
+    </scenes>
+</document>

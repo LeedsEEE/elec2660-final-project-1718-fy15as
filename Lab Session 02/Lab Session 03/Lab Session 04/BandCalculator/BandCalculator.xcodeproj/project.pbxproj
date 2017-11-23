@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		436180401F961DD7005BDAD5 /* Resistor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4361803F1F961DD7005BDAD5 /* Resistor.m */; };
+		436387231F94B4B10093A920 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436387221F94B4B10093A920 /* main.m */; };
+		436387261F94B4B10093A920 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436387251F94B4B10093A920 /* AppDelegate.m */; };
+		436387291F94B4B10093A920 /* FourBandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436387281F94B4B10093A920 /* FourBandViewController.m */; };
+		4363872C1F94B4B10093A920 /* FiveBandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4363872B1F94B4B10093A920 /* FiveBandViewController.m */; };
+		4363872F1F94B4B10093A920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4363872D1F94B4B10093A920 /* Main.storyboard */; };
+		436387311F94B4B10093A920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436387301F94B4B10093A920 /* Assets.xcassets */; };
+		436387341F94B4B10093A920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436387321F94B4B10093A920 /* LaunchScreen.storyboard */; };
+		4363873F1F94B4B10093A920 /* BandCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4363873E1F94B4B10093A920 /* BandCalculatorTests.m */; };
+		4363874A1F94B4B10093A920 /* BandCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436387491F94B4B10093A920 /* BandCalculatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4363873B1F94B4B10093A920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436387161F94B4B10093A920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4363871D1F94B4B10093A920;
+			remoteInfo = BandCalculator;
+		};
+		436387461F94B4B10093A920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436387161F94B4B10093A920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4363871D1F94B4B10093A920;
+			remoteInfo = BandCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4361803F1F961DD7005BDAD5 /* Resistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resistor.m; sourceTree = "<group>"; };
+		436180411F961E3E005BDAD5 /* Resistor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resistor.h; sourceTree = "<group>"; };
+		4363871E1F94B4B10093A920 /* BandCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		436387221F94B4B10093A920 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		436387241F94B4B10093A920 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		436387251F94B4B10093A920 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		436387271F94B4B10093A920 /* FourBandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourBandViewController.h; sourceTree = "<group>"; };
+		436387281F94B4B10093A920 /* FourBandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourBandViewController.m; sourceTree = "<group>"; };
+		4363872A1F94B4B10093A920 /* FiveBandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveBandViewController.h; sourceTree = "<group>"; };
+		4363872B1F94B4B10093A920 /* FiveBandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveBandViewController.m; sourceTree = "<group>"; };
+		4363872E1F94B4B10093A920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		436387301F94B4B10093A920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		436387331F94B4B10093A920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		436387351F94B4B10093A920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4363873A1F94B4B10093A920 /* BandCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4363873E1F94B4B10093A920 /* BandCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BandCalculatorTests.m; sourceTree = "<group>"; };
+		436387401F94B4B10093A920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436387451F94B4B10093A920 /* BandCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		436387491F94B4B10093A920 /* BandCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BandCalculatorUITests.m; sourceTree = "<group>"; };
+		4363874B1F94B4B10093A920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4363871B1F94B4B10093A920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436387371F94B4B10093A920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436387421F94B4B10093A920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		436387151F94B4B10093A920 = {
+			isa = PBXGroup;
+			children = (
+				436387201F94B4B10093A920 /* BandCalculator */,
+				4363873D1F94B4B10093A920 /* BandCalculatorTests */,
+				436387481F94B4B10093A920 /* BandCalculatorUITests */,
+				4363871F1F94B4B10093A920 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4363871F1F94B4B10093A920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4363871E1F94B4B10093A920 /* BandCalculator.app */,
+				4363873A1F94B4B10093A920 /* BandCalculatorTests.xctest */,
+				436387451F94B4B10093A920 /* BandCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		436387201F94B4B10093A920 /* BandCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				4361803F1F961DD7005BDAD5 /* Resistor.m */,
+				436180411F961E3E005BDAD5 /* Resistor.h */,
+				436387241F94B4B10093A920 /* AppDelegate.h */,
+				436387251F94B4B10093A920 /* AppDelegate.m */,
+				436387271F94B4B10093A920 /* FourBandViewController.h */,
+				436387281F94B4B10093A920 /* FourBandViewController.m */,
+				4363872A1F94B4B10093A920 /* FiveBandViewController.h */,
+				4363872B1F94B4B10093A920 /* FiveBandViewController.m */,
+				4363872D1F94B4B10093A920 /* Main.storyboard */,
+				436387301F94B4B10093A920 /* Assets.xcassets */,
+				436387321F94B4B10093A920 /* LaunchScreen.storyboard */,
+				436387351F94B4B10093A920 /* Info.plist */,
+				436387211F94B4B10093A920 /* Supporting Files */,
+			);
+			path = BandCalculator;
+			sourceTree = "<group>";
+		};
+		436387211F94B4B10093A920 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				436387221F94B4B10093A920 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4363873D1F94B4B10093A920 /* BandCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4363873E1F94B4B10093A920 /* BandCalculatorTests.m */,
+				436387401F94B4B10093A920 /* Info.plist */,
+			);
+			path = BandCalculatorTests;
+			sourceTree = "<group>";
+		};
+		436387481F94B4B10093A920 /* BandCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				436387491F94B4B10093A920 /* BandCalculatorUITests.m */,
+				4363874B1F94B4B10093A920 /* Info.plist */,
+			);
+			path = BandCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4363871D1F94B4B10093A920 /* BandCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4363874E1F94B4B10093A920 /* Build configuration list for PBXNativeTarget "BandCalculator" */;
+			buildPhases = (
+				4363871A1F94B4B10093A920 /* Sources */,
+				4363871B1F94B4B10093A920 /* Frameworks */,
+				4363871C1F94B4B10093A920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BandCalculator;
+			productName = BandCalculator;
+			productReference = 4363871E1F94B4B10093A920 /* BandCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		436387391F94B4B10093A920 /* BandCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436387511F94B4B10093A920 /* Build configuration list for PBXNativeTarget "BandCalculatorTests" */;
+			buildPhases = (
+				436387361F94B4B10093A920 /* Sources */,
+				436387371F94B4B10093A920 /* Frameworks */,
+				436387381F94B4B10093A920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4363873C1F94B4B10093A920 /* PBXTargetDependency */,
+			);
+			name = BandCalculatorTests;
+			productName = BandCalculatorTests;
+			productReference = 4363873A1F94B4B10093A920 /* BandCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		436387441F94B4B10093A920 /* BandCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436387541F94B4B10093A920 /* Build configuration list for PBXNativeTarget "BandCalculatorUITests" */;
+			buildPhases = (
+				436387411F94B4B10093A920 /* Sources */,
+				436387421F94B4B10093A920 /* Frameworks */,
+				436387431F94B4B10093A920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				436387471F94B4B10093A920 /* PBXTargetDependency */,
+			);
+			name = BandCalculatorUITests;
+			productName = BandCalculatorUITests;
+			productReference = 436387451F94B4B10093A920 /* BandCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		436387161F94B4B10093A920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Abhraneel Sen [fy15as]";
+				TargetAttributes = {
+					4363871D1F94B4B10093A920 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					436387391F94B4B10093A920 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4363871D1F94B4B10093A920;
+					};
+					436387441F94B4B10093A920 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4363871D1F94B4B10093A920;
+					};
+				};
+			};
+			buildConfigurationList = 436387191F94B4B10093A920 /* Build configuration list for PBXProject "BandCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 436387151F94B4B10093A920;
+			productRefGroup = 4363871F1F94B4B10093A920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4363871D1F94B4B10093A920 /* BandCalculator */,
+				436387391F94B4B10093A920 /* BandCalculatorTests */,
+				436387441F94B4B10093A920 /* BandCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4363871C1F94B4B10093A920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436387341F94B4B10093A920 /* LaunchScreen.storyboard in Resources */,
+				436387311F94B4B10093A920 /* Assets.xcassets in Resources */,
+				4363872F1F94B4B10093A920 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436387381F94B4B10093A920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436387431F94B4B10093A920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4363871A1F94B4B10093A920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4363872C1F94B4B10093A920 /* FiveBandViewController.m in Sources */,
+				436387261F94B4B10093A920 /* AppDelegate.m in Sources */,
+				436180401F961DD7005BDAD5 /* Resistor.m in Sources */,
+				436387291F94B4B10093A920 /* FourBandViewController.m in Sources */,
+				436387231F94B4B10093A920 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436387361F94B4B10093A920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4363873F1F94B4B10093A920 /* BandCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436387411F94B4B10093A920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4363874A1F94B4B10093A920 /* BandCalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4363873C1F94B4B10093A920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4363871D1F94B4B10093A920 /* BandCalculator */;
+			targetProxy = 4363873B1F94B4B10093A920 /* PBXContainerItemProxy */;
+		};
+		436387471F94B4B10093A920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4363871D1F94B4B10093A920 /* BandCalculator */;
+			targetProxy = 436387461F94B4B10093A920 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4363872D1F94B4B10093A920 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4363872E1F94B4B10093A920 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		436387321F94B4B10093A920 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436387331F94B4B10093A920 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4363874C1F94B4B10093A920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4363874D1F94B4B10093A920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4363874F1F94B4B10093A920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BandCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.BandCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		436387501F94B4B10093A920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BandCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.BandCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		436387521F94B4B10093A920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BandCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.BandCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BandCalculator.app/BandCalculator";
+			};
+			name = Debug;
+		};
+		436387531F94B4B10093A920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BandCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.BandCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BandCalculator.app/BandCalculator";
+			};
+			name = Release;
+		};
+		436387551F94B4B10093A920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BandCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.BandCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BandCalculator;
+			};
+			name = Debug;
+		};
+		436387561F94B4B10093A920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BandCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.BandCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BandCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		436387191F94B4B10093A920 /* Build configuration list for PBXProject "BandCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4363874C1F94B4B10093A920 /* Debug */,
+				4363874D1F94B4B10093A920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4363874E1F94B4B10093A920 /* Build configuration list for PBXNativeTarget "BandCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4363874F1F94B4B10093A920 /* Debug */,
+				436387501F94B4B10093A920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436387511F94B4B10093A920 /* Build configuration list for PBXNativeTarget "BandCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436387521F94B4B10093A920 /* Debug */,
+				436387531F94B4B10093A920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436387541F94B4B10093A920 /* Build configuration list for PBXNativeTarget "BandCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436387551F94B4B10093A920 /* Debug */,
+				436387561F94B4B10093A920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 436387161F94B4B10093A920 /* Project object */;
+}
