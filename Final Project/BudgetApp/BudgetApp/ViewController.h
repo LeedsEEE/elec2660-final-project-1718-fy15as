@@ -13,9 +13,11 @@
 @property (weak, nonatomic) IBOutlet UISlider *slider; //Connects slider from Main.storyboard as IBOutlet
 
 @property (weak, nonatomic) IBOutlet UILabel *sliderLabel; //Connects label from Main.storyboard as IBOutlet
-@property (weak, nonatomic) IBOutlet UIStepper *stepper;
+
+@property (weak, nonatomic) IBOutlet UIStepper *stepper; //Connects stepper from Main.storyboard as IB Outlet
 
 -(IBAction)sliderValueChanged:(id)user;
+-(IBAction)stepperValueChanged:(UIStepper *)user;
 
 @end
 
