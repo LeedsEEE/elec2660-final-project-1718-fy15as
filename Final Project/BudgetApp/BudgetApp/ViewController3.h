@@ -10,4 +10,6 @@
 
 @interface ViewController3 : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *box0;
+
 @end
