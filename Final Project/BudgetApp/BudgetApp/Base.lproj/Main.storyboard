@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kpJ-ug-acx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kpJ-ug-acx">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -7,6 +7,25 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Bar Graphs-->
+        <scene sceneID="CXH-m4-owC">
+            <objects>
+                <viewController id="5n4-oP-X3g" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NWQ-rE-3gh"/>
+                        <viewControllerLayoutGuide type="bottom" id="LHa-2F-JII"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QlP-rw-CKx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.65652328093051837" green="0.8968139854732754" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bar Graphs" id="CRC-7B-xbf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3v3-iV-Tv0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-276" y="-74"/>
+        </scene>
         <!--SubSets-->
         <scene sceneID="n4J-AW-zuV">
             <objects>
@@ -227,6 +246,25 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="SubSets" id="dtK-cd-iFT"/>
+                    <connections>
+                        <outlet property="drinksLabel" destination="oh2-Uy-PkB" id="wpV-dk-cjw"/>
+                        <outlet property="drinksTF" destination="oh2-Uy-PkB" id="cGa-Eh-VZc"/>
+                        <outlet property="eatingoutTF" destination="FKX-bO-B4V" id="wPV-ih-bhu"/>
+                        <outlet property="groceriesLabel" destination="gAa-hq-nn8" id="qhK-wI-IZr"/>
+                        <outlet property="groceriesTF" destination="gAa-hq-nn8" id="Ebz-LA-Dls"/>
+                        <outlet property="loanrepaymentLabel" destination="2Wg-UE-Wcq" id="zrJ-Io-CH8"/>
+                        <outlet property="loanrepaymentTF" destination="2Wg-UE-Wcq" id="ZsK-w0-KEH"/>
+                        <outlet property="miscellaneousLabel" destination="sCd-0Z-UKB" id="NLQ-aV-IL2"/>
+                        <outlet property="miscellaneousTF" destination="sCd-0Z-UKB" id="Id8-wh-qv6"/>
+                        <outlet property="rentTF" destination="PdC-Tw-wPz" id="hMG-r6-1eJ"/>
+                        <outlet property="subscriptionsLabel" destination="LQV-nK-cZm" id="h6W-aZ-LxQ"/>
+                        <outlet property="subscriptionsTF" destination="LQV-nK-cZm" id="9Ns-sY-qmM"/>
+                        <outlet property="ticketsLabel" destination="aay-bq-f9Q" id="B15-sz-ATF"/>
+                        <outlet property="ticketsTF" destination="aay-bq-f9Q" id="6zq-kR-TYW"/>
+                        <outlet property="transportLabel" destination="VyF-ih-kjs" id="rGA-Oe-a7B"/>
+                        <outlet property="transportTF" destination="VyF-ih-kjs" id="hnI-iz-L3X"/>
+                        <outlet property="utilitiesTF" destination="WGF-rw-gSd" id="eic-Ld-wcO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zuv-2a-VBG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -317,6 +355,7 @@
                     <connections>
                         <segue destination="nnD-d8-F3o" kind="relationship" relationship="viewControllers" id="pHT-VS-2ij"/>
                         <segue destination="p6l-oh-r0d" kind="relationship" relationship="viewControllers" id="Udz-ti-8MP"/>
+                        <segue destination="5n4-oP-X3g" kind="relationship" relationship="viewControllers" id="7Bm-pZ-K2w"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hUR-Dt-vwk" userLabel="First Responder" sceneMemberID="firstResponder"/>
