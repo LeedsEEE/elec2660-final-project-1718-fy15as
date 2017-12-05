@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
 
 @interface ViewController2 : UIViewController
 
@@ -20,5 +21,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *subscriptionsTF;
 @property (weak, nonatomic) IBOutlet UITextField *loanrepaymentTF;
 @property (weak, nonatomic) IBOutlet UITextField *miscellaneousTF;
+
+
 
 @end

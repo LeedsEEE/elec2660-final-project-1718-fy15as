@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController2.h"
 
 @interface ViewController : UIViewController
 
@@ -18,6 +19,8 @@
 
 -(IBAction)sliderValueChanged:(id)user;
 -(IBAction)stepperValueChanged:(UIStepper *)user;
+
+@property NSInteger sliderVal;
 
 @end
 
